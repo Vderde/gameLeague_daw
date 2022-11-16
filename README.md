@@ -16,3 +16,7 @@ Es un juego de cartas de fútbol por turnos,  en el que dependiendo de la posici
 3. Si utiliza un usuario y contraseña en su gestor de base de datos. Dirigirse a la carpeta gameLeague -> carpeta config -> archivo config.php. Cambiar el usuario y la contraseña por los tuyos. Si no, saltese este paso.
 4. Ubicar la carpeta gameLeague con su contenido en la carpeta htdocs, que se encuentra donde tenga instalado XAMPP.
 5. Abrir  el navegador y escribir en la barra de direcciones localhost y selecionar la carpeta gameLeague o escribir http://localhost/gameLeague 
+
+
+**Importante**
+La aplicación en git no contiene la mayoría de las cartas.
