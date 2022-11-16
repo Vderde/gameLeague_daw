@@ -1,0 +1,86 @@
+body{
+    user-select: none;
+    overflow: hidden;
+}
+#container-card{
+    position: absolute;
+    bottom: 0;
+}
+#container-card div img{
+    width: 100%;
+}
+.invisible{
+    display: none;
+}
+.hidde{
+    animation: top-to-bottom 2s ease-out;
+}
+
+
+#scene{
+    height: 800px;
+    overflow: hidden;
+    background-image: url("/gameLeague/view/resources/background-field.jpg");
+    background-repeat: no-repeat;
+}
+#field{
+    background-image: url("/gameLeague/view/resources/field-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: perspective(500px) rotateX(10deg);
+
+}
+.giantCard{
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    width: 33vw;
+    z-index: 9;
+}
+.giantCard img {
+    width: 100%;
+}
+    #count-ply-2 div, #count-ply-1 div{
+        height: 250px;
+        line-height: 250px;
+    }
+    #count-ply-2 div span, #count-ply-1 div span{
+        position: relative;
+        background-color: aliceblue;
+        z-index: 9;
+        padding: 15px;
+        border-radius: 10%;
+    }
+.attack-drag{
+    background-color: rgba(0, 255, 21, 0.66);
+    opacity: 0.7;
+}
+
+.control-drag{
+    background-color: rgba(0, 153, 255, 0.99);
+    opacity: 0.7;
+}
+.defense-drag{
+    background-color: rgba(255, 0, 0, 0.86);
+    opacity: 0.7;
+}
+.drop-zone, .no-drop-zone{
+    height: 250px;
+}
+.drop-zone img, .no-drop-zone img{
+    height: 50%;
+}
+@keyframes top-to-bottom {
+    0%{
+        transform: translateY(0);
+    }
+    33%{
+        transform: translateY(80%);
+    }
+    66%{
+        transform: translateY(40%);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+}
