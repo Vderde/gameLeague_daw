@@ -19,4 +19,5 @@ Es un juego de cartas de fútbol por turnos,  en el que dependiendo de la posici
 
 
 **Importante**
+
 La aplicación en git no contiene la mayoría de las cartas.
